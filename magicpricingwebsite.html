@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Magic Website</title>
+	<meta charset="UTF-8" />
+	<link rel="stylesheet" href="mpw.css">
+</head>
+
+<body>
+	<div id="content" div class="grid-container">
+		<div id="card_entry" div class="card_entry">
+			<h>Card Entry</h>
+			<p>Begin typing or import</p><input type="file" name="importedFile">
+			<form action="/action_page.php">
+				<textarea name="message" rows="10" cols="30">e.g. 4 Counterspell
+					3x Giant Growth
+					Swords to Plowshares x7
+					Dark Ritual
+				</textarea><br>
+				<input type="submit">
+			  </form>
+
+		</div>
+
+		<div id="current_list" div class="current_list">
+			<h>Current List</h>
+		</div>
+
+		<div id="popular_decks" div class="popular_decks">
+			<h>Popular Decks</h>
+			<select>
+				<option value="standard">Standard</option>
+				<option value="pioneer">Pioneer</option>
+				<option value="modern">Modern</option>
+				<option value="legacy">Legacy</option>
+				<option value="vintage">Vintage</option>
+				<option value="old_school">Old School</option>
+				<option value="commander">Commander</option>
+				<option value="pauper">Pauper</option>
+			</select>
+		</div>
+		<div id="inventory" div class="inventory">Inventory</div>
+	</div>
+</body>
+
+</html>
